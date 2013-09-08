@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'JunPuzze' target in the 'JunPuzze' project
+/***************************************************************
+ *       ___       ______        ___         ____     ____      *
+ *      / __ \    |  ___  \     / __ \      |  _ \   / _  |     *
+ *     / /__\ \   | |    \ |   / /__\ \     | | \ \_/ / | |     *
+ *    / ______ \  | |____/ |  / ______ \    | |  \___/  | |     *
+ *   /_/      \_\ |_______/  /_/      \_\   |_|         |_|     *
+ *                                                              *
+ *********************about.me/adam_kevint**********************/
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import<QuartzCore/QuartzCore.h>
+    #import<CoreGraphics/CoreGraphics.h>
+
+#endif

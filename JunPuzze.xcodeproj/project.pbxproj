@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F00C23417DACBD000B3F5F1 /* PuzzleBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00C23317DACBD000B3F5F1 /* PuzzleBlock.m */; };
+		0F00D70217DAE5E400B3F5F1 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F00D70117DAE5E400B3F5F1 /* white.png */; };
+		0F00D70717DB48AE00B3F5F1 /* mainPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F00D70617DB48AD00B3F5F1 /* mainPNG.png */; };
+		0F4D4E4317D89EE600F244CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4D4E4217D89EE600F244CC /* UIKit.framework */; };
+		0F4D4E4517D89EE600F244CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4D4E4417D89EE600F244CC /* Foundation.framework */; };
+		0F4D4E4717D89EE600F244CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4D4E4617D89EE600F244CC /* CoreGraphics.framework */; };
+		0F4D4E4D17D89EE600F244CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D4E4B17D89EE600F244CC /* InfoPlist.strings */; };
+		0F4D4E4F17D89EE600F244CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D4E4E17D89EE600F244CC /* main.m */; };
+		0F4D4E5317D89EE600F244CC /* PuzzeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D4E5217D89EE600F244CC /* PuzzeAppDelegate.m */; };
+		0F4D4E5517D89EE600F244CC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D4E5417D89EE600F244CC /* Default.png */; };
+		0F4D4E5717D89EE600F244CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D4E5617D89EE600F244CC /* Default@2x.png */; };
+		0F4D4E5917D89EE600F244CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D4E5817D89EE600F244CC /* Default-568h@2x.png */; };
+		0F4D4E5C17D89EE600F244CC /* PuzzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D4E5B17D89EE600F244CC /* PuzzeViewController.m */; };
+		0F4D4E6917D9649800F244CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4D4E6817D9649800F244CC /* QuartzCore.framework */; };
+		0FC0252D17DC6F5300AA9503 /* PuzzeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0252B17DC6F5300AA9503 /* PuzzeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F00C23217DACBD000B3F5F1 /* PuzzleBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleBlock.h; sourceTree = "<group>"; };
+		0F00C23317DACBD000B3F5F1 /* PuzzleBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleBlock.m; sourceTree = "<group>"; };
+		0F00C23517DACBEA00B3F5F1 /* MoveDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveDelegate.h; sourceTree = "<group>"; };
+		0F00D70117DAE5E400B3F5F1 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		0F00D70617DB48AD00B3F5F1 /* mainPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainPNG.png; sourceTree = "<group>"; };
+		0F4D4E3F17D89EE600F244CC /* JunPuzze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JunPuzze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4D4E4217D89EE600F244CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F4D4E4417D89EE600F244CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F4D4E4617D89EE600F244CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F4D4E4A17D89EE600F244CC /* JunPuzze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JunPuzze-Info.plist"; sourceTree = "<group>"; };
+		0F4D4E4C17D89EE600F244CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F4D4E4E17D89EE600F244CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F4D4E5017D89EE600F244CC /* JunPuzze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JunPuzze-Prefix.pch"; sourceTree = "<group>"; };
+		0F4D4E5117D89EE600F244CC /* PuzzeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzeAppDelegate.h; sourceTree = "<group>"; };
+		0F4D4E5217D89EE600F244CC /* PuzzeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzeAppDelegate.m; sourceTree = "<group>"; };
+		0F4D4E5417D89EE600F244CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F4D4E5617D89EE600F244CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F4D4E5817D89EE600F244CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F4D4E5A17D89EE600F244CC /* PuzzeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzeViewController.h; sourceTree = "<group>"; };
+		0F4D4E5B17D89EE600F244CC /* PuzzeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzeViewController.m; sourceTree = "<group>"; };
+		0F4D4E6817D9649800F244CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0FC0252C17DC6F5300AA9503 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4D4E3C17D89EE600F244CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4D4E6917D9649800F244CC /* QuartzCore.framework in Frameworks */,
+				0F4D4E4317D89EE600F244CC /* UIKit.framework in Frameworks */,
+				0F4D4E4517D89EE600F244CC /* Foundation.framework in Frameworks */,
+				0F4D4E4717D89EE600F244CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4D4E3617D89EE600F244CC = {
+			isa = PBXGroup;
+			children = (
+				0F4D4E4817D89EE600F244CC /* JunPuzze */,
+				0F4D4E4117D89EE600F244CC /* Frameworks */,
+				0F4D4E4017D89EE600F244CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F4D4E4017D89EE600F244CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D4E3F17D89EE600F244CC /* JunPuzze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F4D4E4117D89EE600F244CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D4E6817D9649800F244CC /* QuartzCore.framework */,
+				0F4D4E4217D89EE600F244CC /* UIKit.framework */,
+				0F4D4E4417D89EE600F244CC /* Foundation.framework */,
+				0F4D4E4617D89EE600F244CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F4D4E4817D89EE600F244CC /* JunPuzze */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0252B17DC6F5300AA9503 /* PuzzeViewController.xib */,
+				0F00D70117DAE5E400B3F5F1 /* white.png */,
+				0F00D70617DB48AD00B3F5F1 /* mainPNG.png */,
+				0F00C23517DACBEA00B3F5F1 /* MoveDelegate.h */,
+				0F00C23217DACBD000B3F5F1 /* PuzzleBlock.h */,
+				0F00C23317DACBD000B3F5F1 /* PuzzleBlock.m */,
+				0F4D4E5117D89EE600F244CC /* PuzzeAppDelegate.h */,
+				0F4D4E5217D89EE600F244CC /* PuzzeAppDelegate.m */,
+				0F4D4E5A17D89EE600F244CC /* PuzzeViewController.h */,
+				0F4D4E5B17D89EE600F244CC /* PuzzeViewController.m */,
+				0F4D4E4917D89EE600F244CC /* Supporting Files */,
+			);
+			path = JunPuzze;
+			sourceTree = "<group>";
+		};
+		0F4D4E4917D89EE600F244CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D4E4A17D89EE600F244CC /* JunPuzze-Info.plist */,
+				0F4D4E4B17D89EE600F244CC /* InfoPlist.strings */,
+				0F4D4E4E17D89EE600F244CC /* main.m */,
+				0F4D4E5017D89EE600F244CC /* JunPuzze-Prefix.pch */,
+				0F4D4E5417D89EE600F244CC /* Default.png */,
+				0F4D4E5617D89EE600F244CC /* Default@2x.png */,
+				0F4D4E5817D89EE600F244CC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F4D4E3E17D89EE600F244CC /* JunPuzze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4D4E6217D89EE600F244CC /* Build configuration list for PBXNativeTarget "JunPuzze" */;
+			buildPhases = (
+				0F4D4E3B17D89EE600F244CC /* Sources */,
+				0F4D4E3C17D89EE600F244CC /* Frameworks */,
+				0F4D4E3D17D89EE600F244CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JunPuzze;
+			productName = JunPuzze;
+			productReference = 0F4D4E3F17D89EE600F244CC /* JunPuzze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F4D4E3717D89EE600F244CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Puzze;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = majun;
+			};
+			buildConfigurationList = 0F4D4E3A17D89EE600F244CC /* Build configuration list for PBXProject "JunPuzze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F4D4E3617D89EE600F244CC;
+			productRefGroup = 0F4D4E4017D89EE600F244CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4D4E3E17D89EE600F244CC /* JunPuzze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4D4E3D17D89EE600F244CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4D4E4D17D89EE600F244CC /* InfoPlist.strings in Resources */,
+				0F4D4E5517D89EE600F244CC /* Default.png in Resources */,
+				0F4D4E5717D89EE600F244CC /* Default@2x.png in Resources */,
+				0F4D4E5917D89EE600F244CC /* Default-568h@2x.png in Resources */,
+				0F00D70217DAE5E400B3F5F1 /* white.png in Resources */,
+				0F00D70717DB48AE00B3F5F1 /* mainPNG.png in Resources */,
+				0FC0252D17DC6F5300AA9503 /* PuzzeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4D4E3B17D89EE600F244CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4D4E4F17D89EE600F244CC /* main.m in Sources */,
+				0F4D4E5317D89EE600F244CC /* PuzzeAppDelegate.m in Sources */,
+				0F4D4E5C17D89EE600F244CC /* PuzzeViewController.m in Sources */,
+				0F00C23417DACBD000B3F5F1 /* PuzzleBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F4D4E4B17D89EE600F244CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4D4E4C17D89EE600F244CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FC0252B17DC6F5300AA9503 /* PuzzeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC0252C17DC6F5300AA9503 /* en */,
+			);
+			name = PuzzeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4D4E6017D89EE600F244CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F4D4E6117D89EE600F244CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F4D4E6317D89EE600F244CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JunPuzze/JunPuzze-Prefix.pch";
+				INFOPLIST_FILE = "JunPuzze/JunPuzze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F4D4E6417D89EE600F244CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JunPuzze/JunPuzze-Prefix.pch";
+				INFOPLIST_FILE = "JunPuzze/JunPuzze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4D4E3A17D89EE600F244CC /* Build configuration list for PBXProject "JunPuzze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4D4E6017D89EE600F244CC /* Debug */,
+				0F4D4E6117D89EE600F244CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4D4E6217D89EE600F244CC /* Build configuration list for PBXNativeTarget "JunPuzze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4D4E6317D89EE600F244CC /* Debug */,
+				0F4D4E6417D89EE600F244CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F4D4E3717D89EE600F244CC /* Project object */;
+}
